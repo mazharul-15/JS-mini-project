@@ -6,17 +6,21 @@
 }
 
 .slide-contents {
-
-}
-
-.slide-content {
+    position: relative;
     height: 100vh;
     background: rgb(39, 117, 117);
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+}
+
+.slide-content {
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    background: rgb(39, 117, 117);
+    text-align: center;
 }
 
 .slide-content i, h2 {
